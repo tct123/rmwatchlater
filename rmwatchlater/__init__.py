@@ -13,15 +13,11 @@ def main():
         )
     )
     webbrowser.open(url)
-    try:
-        if promt == tr(csv_file=trfile, target_key="YES"):
-            while True:
-                gui.click("rmwatchlater/imgs/menue.png")
-        else:
-            print("Error")
-
-    except:
-        pass
+    if promt == tr(csv_file=trfile, target_key="YES"):
+        while True:
+            gui.click("rmwatchlater/imgs/menue.png")
+    else:
+        print("Error")
 
 
 if __name__ == "__main__":
