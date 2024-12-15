@@ -6,7 +6,9 @@ authors = ["tct123 <42028373+tct123@users.noreply.github.com>"]
 readme = "README.md"
 
 [tool.poetry.dependencies]
-python = "^3.13"
+python = "^3.8"
+pyautogui = "^0.9.54"
+mylocale = "^0.31.0"
 
 
 [build-system]
