@@ -1,9 +1,12 @@
-[tool.poetry]
+[project]
 name = "rmwatchlater"
-version = "2025.1.15"
+version = "2025.1.17"
 description = ""
-authors = ["tct123 <42028373+tct123@users.noreply.github.com>"]
+authors = [
+    { name = "tct123", email = "42028373+tct123@users.noreply.github.com" },
+]
 readme = "README.md"
+urls = { repository = "https://github.com/tct123/rmwatchlater" }
 
 [tool.poetry.dependencies]
 python = "^3.8"

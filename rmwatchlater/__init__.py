@@ -17,7 +17,8 @@ def main():
     print(menue)
     promt = input(
         tr(csv_file=trfile, target_key="PROMT", langcode=mylocale).format(
-            yes="y", no="n"
+            yes=tr(csv_file=trfile, target_key="YES"),
+            no=tr(csv_file=trfile, target_key="NO"),
         )
     )
     webbrowser.open(url)
